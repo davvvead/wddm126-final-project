@@ -5,6 +5,12 @@ function init() {
     console.log("Project loaded:", projectName);
 }
 
+function displayYear() {
+    const year = new Date().getFullYear();
+    console.log("Current year:", year);
+}
+
 init();
+displayYear();
 
 console.log(projectTitle);
