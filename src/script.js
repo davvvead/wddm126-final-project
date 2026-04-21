@@ -5,6 +5,12 @@ function init() {
     console.log("Project loaded:", projectName);
 }
 
-init();
+function logDebugInfo() {
+    console.log("=== Debug Info ===");
+    console.log("Project:", projectTitle);
+    console.log("Page Title:", document.title);
+    console.log("DOM Ready:", document.readyState);
+}
 
-console.log(projectTitle);
+init();
+logDebugInfo();
