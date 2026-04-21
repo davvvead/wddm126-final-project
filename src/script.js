@@ -12,5 +12,11 @@ function logDebugInfo() {
     console.log("DOM Ready:", document.readyState);
 }
 
+function displayYear() {
+    const year = new Date().getFullYear();
+    console.log("Current year:", year);
+}
+
 init();
+displayYear();
 logDebugInfo();
